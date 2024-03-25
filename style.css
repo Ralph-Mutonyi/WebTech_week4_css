@@ -1,0 +1,25 @@
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: lightcyan;
+    text-align: center;
+}
+.heading1{
+    font-family: 'Courier New', Courier, monospace;
+    color: tomato;
+    font-size: 15px;
+}
+.box{
+    padding: 2rem;
+    border: 2px solid black;
+}
+#box1{
+    margin-bottom: 2rem; /* external space at the bottom */
+    background-color: aquamarine;
+    color: white;
+}
+#box2{
+    background-color: #9b59b6;
+    color: white;
+    margin-left: 2rem;
+}
