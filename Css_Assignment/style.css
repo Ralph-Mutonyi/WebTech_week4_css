@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f2f2f2;
+}
+
+header{
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    padding: 20px;
+    border-style: none;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+
+}
+header .myname{
+    padding: 20px;
+    color: white;
+    margin: 20px;
+}
+/* introduction */
+
+.introduction{
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 0;
+    background-color: wheat;
+    color: black;
+}
+.introduction .intro{
+    font-weight: 200;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+/* skills section */
+
+body .skills{
+    margin: 60px 10px;
+    padding: 20px;
+    background-color: bisque;
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* contact */
+footer{
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    font-size: 20px;
+    margin-bottom: 0;
+    padding: 20px 20px;
+    font-weight: 900px;
+    text-align: center;
+}
+
+footer a {
+    margin: 0 10px;
+    color: white;
+}
+footer a :hover{
+    color: #007bff;
+}
